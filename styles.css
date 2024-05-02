@@ -30,7 +30,7 @@ body {
 
 .links {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     list-style: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -52,7 +52,8 @@ a:visited {
     justify-content: center;
     gap: 6em;
     background-color: #1f2937;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .hero {
@@ -75,7 +76,8 @@ a:visited {
     }
     
     .hero-img {
-        width: 250px;
+        width: 500px;
+        padding-right: 2em;
     }
     
     .hero-button {
@@ -101,28 +103,46 @@ a:visited {
     display: flex;
     justify-content: space-around;
     gap: 2em;
-    align-items: center;
 }
 
 .img {
-    width: 200px;
+    width: 250px;
 }
 
 .subtext {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    justify-content: center;
+    align-items: center;
+}
+
+.subtext p {
+    text-align: center;
+    max-width: 250px;
 }
 
 #section-three {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     padding: 5em;
     background-color: #e5e7eb;
 }
 
-#section-three h4 {
+.quote {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    gap: 1em;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.quote h4 {
     align-self: flex-end;
 }
 
